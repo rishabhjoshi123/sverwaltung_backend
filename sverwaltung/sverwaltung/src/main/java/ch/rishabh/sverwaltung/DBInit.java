@@ -25,7 +25,6 @@ public class DBInit {
         StudentModel testStudent = new StudentModel();
         testStudent.setId(20);
         testStudent.setName("testStudentRishabh");
-        studentRepository.save(testStudent);
 
         List<Role> roles = roleRepository.findAll();
 
